@@ -1,0 +1,17 @@
+[user]
+	name = Kien Wai
+	email = kienwai.e@rga.com
+[color]
+	ui = auto
+[alias]
+	ci = commit
+	st = status
+	co = checkout
+	br = branch
+[core]
+	excludesfile = /Users/kien/.gitignore
+	editor = mate -w
+[merge]
+	tool = opendiff
+[diff]
+	tool = opendiff

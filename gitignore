@@ -4,5 +4,6 @@
 !/bin/brew
 !/share/man/man1/brew.1
 .DS_Store
+.sass-cache
 *.tmproj
 
