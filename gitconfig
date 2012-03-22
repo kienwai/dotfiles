@@ -11,6 +11,8 @@
 [core]
 	excludesfile = /Users/kienwai/.gitignore
 	editor = mate -w
+	autocrlf = input
+	safecrlf = true
 [merge]
 	tool = opendiff
 [diff]
