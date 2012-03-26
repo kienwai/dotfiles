@@ -3,7 +3,26 @@
 !/README.md
 !/bin/brew
 !/share/man/man1/brew.1
+
+# OSX
 .DS_Store
+
+#sass
 .sass-cache
+
+# Textmate
 *.tmproj
 
+# VIM
+*.swp
+
+# Xcode
+build/
+*.mode1v3
+*.pbxuser
+*.perspective 
+*.perspectivev3
+
+# Xcode 4
+xcuserdata/
+project.xcworkspace/
