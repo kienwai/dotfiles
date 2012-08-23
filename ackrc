@@ -1,1 +1,4 @@
 --type-add=sass=.scss
+--type-add=coffeescript=.coffee
+--type-add=aspx=.aspx
+--type-add=ascx=.ascx
