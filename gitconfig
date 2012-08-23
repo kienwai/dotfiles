@@ -1,6 +1,6 @@
 [user]
 	name = Kien Wai
-	email = kienwai.e@rga.com
+	email = kienwai@gmail.com
 [color]
 	ui = auto
 [alias]
@@ -9,7 +9,7 @@
 	co = checkout
 	br = branch
 [core]
-	excludesfile = /Users/kien/.gitignore
+	excludesfile = /Users/kienwai/.gitignore
 	editor = mate -w
 	autocrlf = input
 	safecrlf = true
