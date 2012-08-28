@@ -1,6 +1,6 @@
 [user]
 	name = Kien Wai
-	email = kienwai@gmail.com
+	email = kienwai.e@rga.com
 [color]
 	ui = auto
 [alias]
@@ -8,8 +8,9 @@
 	st = status
 	co = checkout
 	br = branch
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 [core]
-	excludesfile = /Users/kienwai/.gitignore
+	excludesfile = ~/.gitignore
 	editor = mate -w
 	autocrlf = input
 	safecrlf = true
