@@ -15,3 +15,6 @@ if [ -f `brew --prefix`/etc/bash_completion.d/git-prompt.sh ]; then
     . `brew --prefix`/etc/bash_completion.d/git-prompt.sh
     PS1='\h:\W$(__git_ps1 "\[\e[0;35m\](%s)")\[\e[0;39m\] \u\$ '
 fi
+
+
+[[ -f `brew --prefix`/etc/bash_completion.d/hg-completion.bash ]] && . `brew --prefix`/etc/bash_completion.d/hg-completion.bash
