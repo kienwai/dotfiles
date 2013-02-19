@@ -11,7 +11,7 @@
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 [core]
 	excludesfile = ~/.gitignore
-	editor = mate -w
+	editor = mate -wl1
 	autocrlf = input
 	safecrlf = true
 [merge]

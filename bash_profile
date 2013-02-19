@@ -2,6 +2,8 @@ PATH="/usr/local/bin:/opt/local/bin:/opt/bin:$PATH"
 NODE_PATH="/usr/local/bin/nodejs/lib:/usr/local/lib/node_modules"
 export CLICOLOR=1
 
+export PERL5LIB="/Applications/Xcode.app/Contents/Developer/Library/Perl/5.12/darwin-thread-multi-2level"
+
 [[ -f `brew --prefix`/etc/bash_completion ]] && . `brew --prefix`/etc/bash_completion
 
 if [ -f "$HOME/.rvm/scripts/rvm" ]; then

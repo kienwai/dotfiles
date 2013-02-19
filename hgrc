@@ -1,6 +1,7 @@
 [ui]
 username = Kien Wai <kienwai.e@rga.com>
 merge = opendiff
+ignore = ~/.hgignore
 
 [alias]
 ci = commit
@@ -8,8 +9,13 @@ st = status
 co = checkout
 br = branch
 
-[ui]
-ignore = ~/.hgignore
-
 [hostfingerprints]
-fogbugz.rga.com = 86:a9:f6:6e:b9:5e:ca:49:31:08:6f:32:56:eb:0b:f5:84:12:68:7a
+fogbugz.rga.com = 86:A9:F6:6E:B9:5E:CA:49:31:08:6F:32:56:EB:0B:F5:84:12:68:7A
+
+[extensions]
+hgext.fetch =
+kilnauth = ~/Documents/scm/kiln_extensions/kilnauth.py
+
+[auth]
+kiln.prefix = fogbugz.rga.com
+kiln.username = kienwai.e@rga.com
