@@ -13,8 +13,10 @@ br = branch
 fogbugz.rga.com = 86:A9:F6:6E:B9:5E:CA:49:31:08:6F:32:56:EB:0B:F5:84:12:68:7A
 
 [extensions]
+color =
 hgext.fetch =
 kilnauth = ~/Documents/scm/kiln_extensions/kilnauth.py
+prompt = ~/Development/00-Library/hg/hg-prompt/prompt.py
 
 [auth]
 kiln.prefix = fogbugz.rga.com
