@@ -1,6 +1,6 @@
 [ui]
 username = Kien Wai <kienwai.e@rga.com>
-merge = opendiff
+# merge = opendiff
 ignore = ~/.hgignore
 
 [alias]
@@ -14,9 +14,14 @@ fogbugz.rga.com = 86:A9:F6:6E:B9:5E:CA:49:31:08:6F:32:56:EB:0B:F5:84:12:68:7A
 
 [extensions]
 color =
+pager =
 hgext.fetch =
 kilnauth = ~/Documents/scm/kiln_extensions/kilnauth.py
 prompt = ~/Development/00-Library/hg/hg-prompt/prompt.py
+
+[pager]
+pager = LESS='FSRX' less
+attend = cat, diff, glog, log, incoming, outgoing, lg, show, lga
 
 [auth]
 kiln.prefix = fogbugz.rga.com
