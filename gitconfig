@@ -13,7 +13,7 @@
 	excludesfile = ~/.gitignore
 	editor = mate -wl1
 	autocrlf = input
-	safecrlf = true
+	safecrlf = warn
 [merge]
 	tool = opendiff
 [diff]

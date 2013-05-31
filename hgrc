@@ -8,6 +8,7 @@ ci = commit
 st = status
 co = checkout
 br = branch
+llog = log --limit 10 --graph
 
 [hostfingerprints]
 fogbugz.rga.com = 86:A9:F6:6E:B9:5E:CA:49:31:08:6F:32:56:EB:0B:F5:84:12:68:7A
