@@ -1,0 +1,8 @@
+ln -s /Users/kien/Development/dotfiles/gitconfig ~/.gitconfig
+ln -s /Users/kien/Development/dotfiles/gitignore ~/.gitignore
+ln -s /Users/kien/Development/dotfiles/bash_profile ~/.bash_profile
+
+Apache:
+sudo ln -s /Users/kien/Development/dotfiles/apache/httpd.conf /private/etc/apache2/httpd.conf
+sudo ln -s /Users/kien/Development/dotfiles/apache/httpd-vhosts.conf /private/etc/apache2/extra/httpd-vhosts.conf
+sudo apachectl restart
