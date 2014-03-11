@@ -6,3 +6,6 @@ Apache:
 sudo ln -s /Users/kien/Development/dotfiles/apache/httpd.conf /private/etc/apache2/httpd.conf
 sudo ln -s /Users/kien/Development/dotfiles/apache/httpd-vhosts.conf /private/etc/apache2/extra/httpd-vhosts.conf
 sudo apachectl restart
+
+Sublime Text 2
+ln -s /Users/kien/Development/dotfiles/Preferences.sublime-settings /Users/kien/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings
