@@ -9,3 +9,5 @@ sudo apachectl restart
 
 Sublime Text 3
 ln -s /Users/kienwai/Data/Development/dotfiles/Preferences.sublime-settings /Users/kienwai/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
+
+ln -s /Users/kienwai/Data/Development/dotfiles/Default\ \(OSX\).sublime-keymap /Users/kienwai/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap
