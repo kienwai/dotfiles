@@ -1,6 +1,6 @@
 [user]
 	name = Kien Wai
-	email = kienwai.e@rga.com
+	email = kienwai@thesecretlittleagency.com
 [color]
 	ui = auto
 [alias]
@@ -11,7 +11,7 @@
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 [core]
 	excludesfile = ~/.gitignore
-	editor = mate -wl1
+	editor = subl
 	autocrlf = input
 	safecrlf = warn
 [merge]
