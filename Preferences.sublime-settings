@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/Babel/Monokai Phoenix.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
@@ -10,6 +10,7 @@
 	"font_size": 11,
 	"ignored_packages":
 	[
+		"Markdown",
 		"Vintage"
 	],
 	"tab_size": 2,
