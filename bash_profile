@@ -1,4 +1,4 @@
-PATH="/usr/local/bin:/opt/local/bin:/opt/bin:$PATH"
+PATH="~/.composer/vendor/bin:/usr/local/bin:/opt/local/bin:/opt/bin:$PATH"
 NODE_PATH="/usr/local/bin/nodejs/lib:/usr/local/lib/node_modules"
 export CLICOLOR=1
 
@@ -20,3 +20,6 @@ fi
 
 
 [[ -f `brew --prefix`/etc/bash_completion.d/hg-completion.bash ]] && . `brew --prefix`/etc/bash_completion.d/hg-completion.bash
+
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
