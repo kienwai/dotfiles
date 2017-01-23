@@ -1,4 +1,4 @@
-PATH="~/.composer/vendor/bin:/usr/local/bin:/opt/local/bin:/opt/bin:$PATH"
+PATH="/usr/local/bin:/opt/local/bin:/opt/bin:$PATH"
 NODE_PATH="/usr/local/bin/nodejs/lib:/usr/local/lib/node_modules"
 export CLICOLOR=1
 
