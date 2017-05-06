@@ -1,17 +1,26 @@
-ln -s /Users/kienwai/Data/Development/dotfiles/gitconfig ~/.gitconfig
-ln -s /Users/kienwai/Data/Development/dotfiles/gitignore ~/.gitignore
-ln -s /Users/kienwai/Data/Development/dotfiles/bash_profile ~/.bash_profile
+ln -s /Users/kienwai/Development/dotfiles/gitconfig ~/.gitconfig
+ln -s /Users/kienwai/Development/dotfiles/gitignore ~/.gitignore
+ln -s /Users/kienwai/Development/dotfiles/bash_profile ~/.bash_profile
 
 Apache:
-sudo ln -s /Users/kienwai/Data/Development/dotfiles/apache/httpd.conf /private/etc/apache2/httpd.conf
-sudo ln -s /Users/kienwai/Data/Development/dotfiles/apache/httpd-vhosts.conf /private/etc/apache2/extra/httpd-vhosts.conf
+sudo ln -s /Users/kienwai/Development/dotfiles/apache/httpd.conf /private/etc/apache2/httpd.conf
+sudo ln -s /Users/kienwai/Development/dotfiles/apache/httpd-vhosts.conf /private/etc/apache2/extra/httpd-vhosts.conf
 sudo apachectl restart
 
 Sublime Text 3
-ln -s /Users/kienwai/Data/Development/dotfiles/Preferences.sublime-settings /Users/kienwai/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
+ln -s /Users/kienwai/Development/dotfiles/Preferences.sublime-settings /Users/kienwai/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 
-ln -s /Users/kienwai/Data/Development/dotfiles/Default\ \(OSX\).sublime-keymap /Users/kienwai/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap
+ln -s /Users/kienwai/Development/dotfiles/Default\ \(OSX\).sublime-keymap /Users/kienwai/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap
 
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
-ln -s /Users/kienwai/Data/Development/dotfiles/Markdown.sublime-settings /Users/kienwai/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Markdown.sublime-settings
+ln -s /Users/kienwai/Development/dotfiles/Markdown.sublime-settings /Users/kienwai/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Markdown.sublime-settings
+
+nginx:
+brew services start nginx
+sudo ln -s /Users/kienwai/Development/dotfiles/nginx/nginx.conf /usr/local/etc/nginx/nginx.conf
+
+/usr/local/etc/nginx/nginx.conf
+
+brew services start php71
+brew services start mariadb
