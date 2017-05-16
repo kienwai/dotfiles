@@ -18,7 +18,12 @@ ln -s /Users/kienwai/Development/dotfiles/Markdown.sublime-settings /Users/kienw
 
 nginx:
 brew services start nginx
-sudo ln -s /Users/kienwai/Development/dotfiles/nginx/nginx.conf /usr/local/etc/nginx/nginx.conf
+sudo launchctl load -w /Library/LaunchAgents/homebrew.mxcl.nginx.plist
+sudo launchctl unload -w /Library/LaunchAgents/homebrew.mxcl.nginx.plist
+
+For new sites added to nginx:
+sudo ln -s /Users/kienwai/Development/dotfiles/nginx/sites-available/*.dev /usr/local/etc/nginx/sites-available/*.dev
+sudo ln -s /usr/local/etc/nginx/sites-available/*.dev /usr/local/etc/nginx/sites-enabled/*.dev
 
 /usr/local/etc/nginx/nginx.conf
 

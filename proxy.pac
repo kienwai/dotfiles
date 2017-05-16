@@ -4,7 +4,7 @@ function FindProxyForURL(url, host) {
 
   if (shExpMatch(host,"*.local")) {
     return "PROXY 127.0.0.1:" + port;
-  } else if (shExpMatch(host,"*.app")) {
+  } else if (shExpMatch(host,"*.dev")) {
     return "PROXY 127.0.0.1:" + port;
   }
 
