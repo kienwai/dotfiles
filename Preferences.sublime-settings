@@ -1,34 +1,34 @@
 {
-  "auto_complete_commit_on_tab": true,
-  "auto_complete_with_fields": true,
-  "color_scheme": "Packages/Predawn/predawn.tmTheme",
-  "create_window_at_startup": false,
-  "ensure_newline_at_eof_on_save": true,
-  "file_exclude_patterns":
-  [
-    ".sass-cache",
-    ".DS_Store"
-  ],
-  "font_face": "Input",
-  "font_size": 11,
-  "highlight_line": true,
-  "ignored_packages":
-  [
-    "CSS",
-    "Markdown",
-    "Vintage"
-  ],
-  "line_padding_bottom": 1,
-  "line_padding_top": 1,
-  "predawn_findreplace_small": true,
-  "predawn_quick_panel_small": true,
-  "predawn_sidebar_xsmall": true,
-  "predawn_sidebar_narrow": true,
-  "predawn_tabs_active_underline": true,
-  "predawn_tabs_small": true,
-  "tab_size": 2,
-  "theme": "predawn-DEV.sublime-theme",
-  "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true,
-  "word_wrap": true
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_with_fields": true,
+	"color_scheme": "Packages/Predawn/predawn.tmTheme",
+	"create_window_at_startup": false,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		".sass-cache",
+		".DS_Store"
+	],
+	"font_face": "Input",
+	"font_size": 11,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"CSS",
+		"Markdown",
+		"Vintage"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"predawn_findreplace_small": true,
+	"predawn_quick_panel_small": true,
+	"predawn_sidebar_narrow": true,
+	"predawn_sidebar_xsmall": true,
+	"predawn_tabs_active_underline": true,
+	"predawn_tabs_small": true,
+	"tab_size": 2,
+	"theme": "predawn-DEV.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
 }
