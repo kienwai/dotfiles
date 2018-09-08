@@ -27,5 +27,8 @@ sudo ln -s /usr/local/etc/nginx/sites-available/*.dev /usr/local/etc/nginx/sites
 
 /usr/local/etc/nginx/nginx.conf
 
-brew services start php71
+brew services start php
 brew services start mariadb
+
+hosts file
+/etc/hosts
