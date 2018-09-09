@@ -21,6 +21,14 @@ brew services start nginx
 sudo launchctl load -w /Library/LaunchAgents/homebrew.mxcl.nginx.plist
 sudo launchctl unload -w /Library/LaunchAgents/homebrew.mxcl.nginx.plist
 
+Setup SSL for nginx:
+1) Create a folder for our SSL certificates and private keys:
+mkdir -p /usr/local/etc/nginx/ssl
+
+2) Generate 4096 bit RSA keys and the self-sign the certificates in one command:
+openssl req -new -newkey rsa:4096 -days 365 -nodes -x509 -subj "/C=US/ST=State/L=Town/O=Office/CN=localhost" -keyout /usr/local/etc/nginx/ssl/localhost.key -out /usr/local/etc/nginx/ssl/localhost.crt
+
+
 For new sites added to nginx:
 sudo ln -s /Users/kienwai/Development/dotfiles/nginx/sites-available/*.dev /usr/local/etc/nginx/sites-available/*.dev
 sudo ln -s /usr/local/etc/nginx/sites-available/*.dev /usr/local/etc/nginx/sites-enabled/*.dev
@@ -32,3 +40,10 @@ brew services start mariadb
 
 hosts file
 /etc/hosts
+
+Generate self-signed cert for local dev
+1) Edit SAN in ssl.conf
+2) Run in dotfiles folder
+3) Add to nginx conf
+4) Import and Trust cert in Keychain
+openssl req -new -newkey rsa:4096 -days 720 -nodes -x509 -extensions req_ext -config ssl.conf -subj "/CN=zespri" -keyout /usr/local/etc/nginx/ssl/zespri.key -out /usr/local/etc/nginx/ssl/zespri.crt -sha256
