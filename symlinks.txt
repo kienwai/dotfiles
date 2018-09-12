@@ -25,8 +25,8 @@ Setup SSL for nginx:
 1) Create a folder for our SSL certificates and private keys:
 mkdir -p /usr/local/etc/nginx/ssl
 
-2) Generate 4096 bit RSA keys and the self-sign the certificates in one command:
-openssl req -new -newkey rsa:4096 -days 365 -nodes -x509 -subj "/C=US/ST=State/L=Town/O=Office/CN=localhost" -keyout /usr/local/etc/nginx/ssl/localhost.key -out /usr/local/etc/nginx/ssl/localhost.crt
+2) Generate 4096 bit RSA keys and the self-sign the certificates in one command (Edit localhost to domain):
+openssl req -new -newkey rsa:4096 -days 365 -nodes -x509 -extensions req_ext -config ssl.conf -subj "/C=US/ST=State/L=Town/O=Office/CN=localhost" -keyout /usr/local/etc/nginx/ssl/localhost.key -out /usr/local/etc/nginx/ssl/localhost.crt
 
 
 For new sites added to nginx:
