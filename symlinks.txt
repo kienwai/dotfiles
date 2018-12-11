@@ -16,6 +16,9 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/loca
 
 ln -s /Users/kienwai/Development/dotfiles/Markdown.sublime-settings /Users/kienwai/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Markdown.sublime-settings
 
+VS Code
+Settings Sync - https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
+
 nginx:
 brew services start nginx
 sudo launchctl load -w /Library/LaunchAgents/homebrew.mxcl.nginx.plist
