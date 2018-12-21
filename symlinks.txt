@@ -5,7 +5,12 @@ ln -s /Users/kienwai/Development/dotfiles/bash_profile ~/.bash_profile
 Apache:
 sudo ln -s /Users/kienwai/Development/dotfiles/apache/httpd.conf /private/etc/apache2/httpd.conf
 sudo ln -s /Users/kienwai/Development/dotfiles/apache/httpd-vhosts.conf /private/etc/apache2/extra/httpd-vhosts.conf
+sudo ln -s /Users/kienwai/Development/dotfiles/apache/httpd-ssl.conf /private/etc/apache2/extra/httpd-ssl.conf
 sudo apachectl restart
+
+
+openssl req -new -newkey rsa:4096 -days 365 -nodes -x509 -extensions req_ext -config ssl.conf -subj "/C=US/ST=State/L=Town/O=Office/CN=localhost" -keyout localhost.key -out localhost.crt
+
 
 Sublime Text 3
 ln -s /Users/kienwai/Development/dotfiles/Preferences.sublime-settings /Users/kienwai/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
