@@ -1,6 +1,6 @@
 [user]
 	name = Kien Wai E
-	email = kien.wai@massive.co
+	email = kienwai@gmail.com
 [color]
 	ui = auto
 [alias]
@@ -20,3 +20,5 @@
 	tool = opendiff
 [push]
 	default = simple
+[pull]
+	ff = only
