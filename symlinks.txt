@@ -1,6 +1,7 @@
 ln -s /Users/kienwai/Development/dotfiles/gitconfig ~/.gitconfig
 ln -s /Users/kienwai/Development/dotfiles/gitignore ~/.gitignore
 ln -s /Users/kienwai/Development/dotfiles/bash_profile ~/.bash_profile
+ln -s /Users/kienwai/Development/dotfiles/zprofile ~/.zprofile
 
 Apache:
 sudo ln -s /Users/kienwai/Development/dotfiles/apache/httpd.conf /private/etc/apache2/httpd.conf
